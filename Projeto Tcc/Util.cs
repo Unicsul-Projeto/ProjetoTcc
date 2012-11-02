@@ -1,12 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
+using Telerik.WinControls.UI;
 
 namespace Projeto_Tcc
 {
     public class Util
     {
+        public bool Validar(object obj)
+        {
+            if (obj is  RadTextBox)
+            {
+                var txt = ((RadTextBox)obj);
+                if (string.IsNullOrWhiteSpace(txt.Text)) { txt.TextBoxElement.TextBoxItem.BackColor = Color.Yellow; return false; }
+                txt.BackColor = Color.White;
+            }
+
+            if (obj is RadDropDownList)
+            {
+                var cb = ((RadDropDownList)obj);
+                if (string.IsNullOrWhiteSpace(cb.Text)) { cb.DropDownListElement.TextBox.BackColor = Color.Yellow; return false; }
+                cb.BackColor = Color.White;
+            }
+            return true;
+        }
 
         public static bool ValidarCnpj(string cnpj)
         {

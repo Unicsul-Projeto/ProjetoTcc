@@ -185,3 +185,41 @@ G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Caixa.Pesquisa
 G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Venda.resources
 G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
 G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Principal.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Principal2.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.Carg.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.ControlarCargo.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cliente.ControlarCliente.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarCliente.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControleCep.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Fornecedor.ControlarFornecedor.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionari.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionario.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Login.Login.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Produto.Produto.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Setor.ControlarSeto.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarSetor.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.TipoProduto.TipoProduto.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Caixa.Pesquisar.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Venda.resources
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\NHibernate.dll
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Castle.Windsor.pdb
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Castle.Windsor.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\NHibernate.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml

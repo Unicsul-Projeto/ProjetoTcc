@@ -23,6 +23,7 @@ namespace Projeto_Tcc.Entidades
         void Excluir(int id);
         Endereco Pesquisar(int id);
         IList<Endereco> PesquisarTodos();
+        Endereco PesquisarPorCep(string cep);
     }
 
     public class EnderecoServico : IEnderecoServico
@@ -51,6 +52,11 @@ namespace Projeto_Tcc.Entidades
         public IList<Endereco> PesquisarTodos()
         {
             return _enderecoRepositorio.PesquisarTodos();
+        }
+
+        public Endereco PesquisarPorCep(string cep)
+        {
+            return _enderecoRepositorio.PesquisarPorCep(cep);
         }
     }
         

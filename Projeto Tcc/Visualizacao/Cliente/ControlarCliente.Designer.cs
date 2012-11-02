@@ -37,7 +37,7 @@
             this.tabPageDetalhe = new Telerik.WinControls.UI.RadPageViewPage();
             this.btnConfirmar = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton4 = new Telerik.WinControls.UI.RadButton();
+            this.btnPesquisarCep = new Telerik.WinControls.UI.RadButton();
             this.radLabel15 = new Telerik.WinControls.UI.RadLabel();
             this.cbEstado = new Telerik.WinControls.UI.RadDropDownList();
             this.txtCelular = new Telerik.WinControls.UI.RadTextBox();
@@ -85,7 +85,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPesquisarCep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbEstado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCelular)).BeginInit();
@@ -217,7 +217,7 @@
             this.radGroupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.radGroupBox1.Controls.Add(this.pbCpf);
-            this.radGroupBox1.Controls.Add(this.radButton4);
+            this.radGroupBox1.Controls.Add(this.btnPesquisarCep);
             this.radGroupBox1.Controls.Add(this.radLabel15);
             this.radGroupBox1.Controls.Add(this.cbEstado);
             this.radGroupBox1.Controls.Add(this.txtCelular);
@@ -258,14 +258,17 @@
             this.radGroupBox1.Text = "Pessoa";
             this.radGroupBox1.ThemeName = "TelerikMetroBlue";
             // 
-            // radButton4
+            // btnPesquisarCep
             // 
-            this.radButton4.Location = new System.Drawing.Point(230, 110);
-            this.radButton4.Name = "radButton4";
-            this.radButton4.Size = new System.Drawing.Size(19, 21);
-            this.radButton4.TabIndex = 24;
-            this.radButton4.Text = "+";
-            this.radButton4.ThemeName = "TelerikMetroBlue";
+            this.btnPesquisarCep.BackColor = System.Drawing.Color.Transparent;
+            this.btnPesquisarCep.BackgroundImage = global::Projeto_Tcc.Properties.Resources._1408_16x16;
+            this.btnPesquisarCep.Image = global::Projeto_Tcc.Properties.Resources._1408_16x16;
+            this.btnPesquisarCep.Location = new System.Drawing.Point(230, 110);
+            this.btnPesquisarCep.Name = "btnPesquisarCep";
+            this.btnPesquisarCep.Size = new System.Drawing.Size(21, 21);
+            this.btnPesquisarCep.TabIndex = 24;
+            this.btnPesquisarCep.ThemeName = "TelerikMetroBlue";
+            this.btnPesquisarCep.Click += new System.EventHandler(this.btnPesquisarCep_Click);
             // 
             // radLabel15
             // 
@@ -278,6 +281,7 @@
             // 
             // cbEstado
             // 
+            this.cbEstado.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
             this.cbEstado.Location = new System.Drawing.Point(651, 163);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(45, 23);
@@ -295,7 +299,7 @@
             // radLabel13
             // 
             this.radLabel13.AutoSize = true;
-            this.radLabel13.Location = new System.Drawing.Point(604, 165);
+            this.radLabel13.Location = new System.Drawing.Point(603, 165);
             this.radLabel13.Name = "radLabel13";
             this.radLabel13.Size = new System.Drawing.Size(42, 18);
             this.radLabel13.TabIndex = 13;
@@ -304,7 +308,7 @@
             // radLabel14
             // 
             this.radLabel14.AutoSize = true;
-            this.radLabel14.Location = new System.Drawing.Point(271, 109);
+            this.radLabel14.Location = new System.Drawing.Point(271, 113);
             this.radLabel14.Name = "radLabel14";
             this.radLabel14.Size = new System.Drawing.Size(52, 18);
             this.radLabel14.TabIndex = 5;
@@ -333,7 +337,7 @@
             // radLabel12
             // 
             this.radLabel12.AutoSize = true;
-            this.radLabel12.Location = new System.Drawing.Point(350, 163);
+            this.radLabel12.Location = new System.Drawing.Point(347, 165);
             this.radLabel12.Name = "radLabel12";
             this.radLabel12.Size = new System.Drawing.Size(43, 18);
             this.radLabel12.TabIndex = 11;
@@ -342,7 +346,7 @@
             // radLabel11
             // 
             this.radLabel11.AutoSize = true;
-            this.radLabel11.Location = new System.Drawing.Point(39, 168);
+            this.radLabel11.Location = new System.Drawing.Point(51, 165);
             this.radLabel11.Name = "radLabel11";
             this.radLabel11.Size = new System.Drawing.Size(38, 18);
             this.radLabel11.TabIndex = 9;
@@ -376,7 +380,7 @@
             // radLabel9
             // 
             this.radLabel9.AutoSize = true;
-            this.radLabel9.Location = new System.Drawing.Point(22, 139);
+            this.radLabel9.Location = new System.Drawing.Point(34, 139);
             this.radLabel9.Name = "radLabel9";
             this.radLabel9.Size = new System.Drawing.Size(55, 18);
             this.radLabel9.TabIndex = 7;
@@ -393,7 +397,7 @@
             // radLabel8
             // 
             this.radLabel8.AutoSize = true;
-            this.radLabel8.Location = new System.Drawing.Point(49, 111);
+            this.radLabel8.Location = new System.Drawing.Point(61, 111);
             this.radLabel8.Name = "radLabel8";
             this.radLabel8.Size = new System.Drawing.Size(28, 18);
             this.radLabel8.TabIndex = 5;
@@ -409,6 +413,7 @@
             // 
             // cbSexo
             // 
+            this.cbSexo.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
             this.cbSexo.Location = new System.Drawing.Point(567, 84);
             this.cbSexo.Name = "cbSexo";
             this.cbSexo.Size = new System.Drawing.Size(129, 23);
@@ -426,7 +431,7 @@
             // radLabel7
             // 
             this.radLabel7.AutoSize = true;
-            this.radLabel7.Location = new System.Drawing.Point(528, 85);
+            this.radLabel7.Location = new System.Drawing.Point(529, 85);
             this.radLabel7.Name = "radLabel7";
             this.radLabel7.Size = new System.Drawing.Size(32, 18);
             this.radLabel7.TabIndex = 5;
@@ -435,7 +440,7 @@
             // radLabel6
             // 
             this.radLabel6.AutoSize = true;
-            this.radLabel6.Location = new System.Drawing.Point(300, 85);
+            this.radLabel6.Location = new System.Drawing.Point(300, 87);
             this.radLabel6.Name = "radLabel6";
             this.radLabel6.Size = new System.Drawing.Size(23, 18);
             this.radLabel6.TabIndex = 5;
@@ -444,7 +449,7 @@
             // radLabel5
             // 
             this.radLabel5.AutoSize = true;
-            this.radLabel5.Location = new System.Drawing.Point(49, 85);
+            this.radLabel5.Location = new System.Drawing.Point(61, 85);
             this.radLabel5.Name = "radLabel5";
             this.radLabel5.Size = new System.Drawing.Size(28, 18);
             this.radLabel5.TabIndex = 3;
@@ -461,7 +466,7 @@
             // radLabel4
             // 
             this.radLabel4.AutoSize = true;
-            this.radLabel4.Location = new System.Drawing.Point(38, 59);
+            this.radLabel4.Location = new System.Drawing.Point(50, 59);
             this.radLabel4.Name = "radLabel4";
             this.radLabel4.Size = new System.Drawing.Size(39, 18);
             this.radLabel4.TabIndex = 5;
@@ -497,7 +502,7 @@
             // radLabel2
             // 
             this.radLabel2.AutoSize = true;
-            this.radLabel2.Location = new System.Drawing.Point(32, 33);
+            this.radLabel2.Location = new System.Drawing.Point(44, 33);
             this.radLabel2.Name = "radLabel2";
             this.radLabel2.Size = new System.Drawing.Size(45, 18);
             this.radLabel2.TabIndex = 1;
@@ -615,7 +620,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
             this.radGroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPesquisarCep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbEstado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCelular)).EndInit();
@@ -698,7 +703,7 @@
         private Telerik.WinControls.UI.RadTextBox txtCelular;
         private Telerik.WinControls.UI.RadLabel radLabel14;
         private Telerik.WinControls.UI.RadTextBox txtTelefone;
-        private Telerik.WinControls.UI.RadButton radButton4;
+        private Telerik.WinControls.UI.RadButton btnPesquisarCep;
         private Telerik.WinControls.Themes.TelerikMetroBlueTheme telerikMetroBlueTheme1;
         private Telerik.WinControls.UI.RadButton btnConfirmar;
         private Telerik.WinControls.UI.RadButton btnExcluir;

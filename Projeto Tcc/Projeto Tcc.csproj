@@ -432,6 +432,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo.ico" />
+    <None Include="Resources\1408_16x16.png" />
     <None Include="Resources\Ok-icon.png" />
     <None Include="Resources\delete-icon.png" />
     <None Include="Resources\error.ico" />

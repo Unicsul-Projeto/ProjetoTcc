@@ -22,6 +22,7 @@ namespace Projeto_Tcc.Visualizacao.Cliente
         }
 
         private IPessoaFisicaServico _pessoaFisicaServico;
+        private IEnderecoServico _enderecoServico;
         private ISexoServico _sexoServico;
         private IUfServico _ufServico;
         private string comando;
@@ -33,6 +34,7 @@ namespace Projeto_Tcc.Visualizacao.Cliente
                 var container = ContainerWindsor.InicializarContainer();
 
                 _pessoaFisicaServico = container.Resolve<IPessoaFisicaServico>();
+                _enderecoServico = container.Resolve<IEnderecoServico>();
                 _sexoServico = container.Resolve<ISexoServico>();
                 _ufServico = container.Resolve<IUfServico>();
 
@@ -117,13 +119,20 @@ namespace Projeto_Tcc.Visualizacao.Cliente
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+            var u = new Util();
+            if (!u.Validar(txtNome) && !u.Validar(txtCpf) && !u.Validar(txtRg) && !u.Validar(txtTelefone) && !u.Validar(cbSexo))
+            {
+                MessageBox.Show("Existem campos obrigatórios não preenchidos.", "Validação", MessageBoxButtons.OK,
+                                MessageBoxIcon.Exclamation);
+            }
+
             switch (comando)
             {
                 case "Novo":
                     try
                     {
-                        
-                        if((_pessoaFisicaServico.PesquisarPorCpf(txtCpf.Text).Count > 0))
+
+                        if ((_pessoaFisicaServico.PesquisarPorCpf(txtCpf.Text).Count > 0))
                         {
                             MessageBox.Show("Cpf já cadastrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
@@ -399,13 +408,13 @@ namespace Projeto_Tcc.Visualizacao.Cliente
                 tip.SetToolTip(pbCpf, "Somente números.");
                 return;
             }
-            if(txtCpf.MaxLength == txtCpf.Text.Length)
+            if (txtCpf.MaxLength == txtCpf.Text.Length)
             {
                 var ok = Util.ValidarCpf(txtCpf.Text);
-                if(ok)
+                if (ok)
                 {
                     pbCpf.Image = Resources.Ok_icon;
-                    tip.SetToolTip(pbCpf,"CPF Válido!");
+                    tip.SetToolTip(pbCpf, "CPF Válido!");
                 }
                 else
                 {
@@ -417,6 +426,23 @@ namespace Projeto_Tcc.Visualizacao.Cliente
             {
                 pbCpf.Image = null;
                 tip.SetToolTip(pbCpf, null);
+            }
+        }
+
+        private void btnPesquisarCep_Click(object sender, EventArgs e)
+        {
+            var endereco = _enderecoServico.PesquisarPorCep(txtCep.Text);
+            if (endereco == null)
+            {
+                MessageBox.Show(
+                    "CEP não encontrado. Insira as informações do endereço e após o cadastro, o endereço será adicionado ao banco de dados.", "CEP não encontrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                txtEndereco.Text = endereco.Logradouro;
+                txtBairro.Text = endereco.Bairro;
+                txtCidade.Text = endereco.Cidade;
+                cbEstado.Text = endereco.Uf.Descricao;
             }
         }
     }

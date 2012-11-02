@@ -189,7 +189,7 @@
             // 
             this.radButton6.Location = new System.Drawing.Point(246, 123);
             this.radButton6.Name = "radButton6";
-            this.radButton6.Size = new System.Drawing.Size(28, 20);
+            this.radButton6.Size = new System.Drawing.Size(22, 21);
             this.radButton6.TabIndex = 14;
             this.radButton6.Text = "+";
             this.radButton6.ThemeName = "TelerikMetroBlue";
@@ -322,9 +322,9 @@
             this.radLabel6.AutoSize = true;
             this.radLabel6.Location = new System.Drawing.Point(268, 97);
             this.radLabel6.Name = "radLabel6";
-            this.radLabel6.Size = new System.Drawing.Size(90, 18);
+            this.radLabel6.Size = new System.Drawing.Size(75, 18);
             this.radLabel6.TabIndex = 5;
-            this.radLabel6.Text = "INCR.ESTADUAL:";
+            this.radLabel6.Text = "Isnc. Estadual:";
             // 
             // radLabel5
             // 

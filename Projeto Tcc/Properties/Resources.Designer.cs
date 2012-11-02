@@ -60,6 +60,13 @@ namespace Projeto_Tcc.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap _1408_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("_1408_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap branco {
             get {
                 object obj = ResourceManager.GetObject("branco", resourceCulture);
