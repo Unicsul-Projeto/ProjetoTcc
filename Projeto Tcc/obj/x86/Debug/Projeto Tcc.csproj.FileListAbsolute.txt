@@ -1,0 +1,187 @@
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Cliente.resources
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Consultar_Cliente.resources
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+C:\Users\Eduardo\documents\visual studio 2010\Projects\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Cliente.resources
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Consultar_Cliente.resources
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Tcc\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.dll
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.dll
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.dll
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.pdb
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.pdb
+F:\Tcc\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Cliente.resources
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.dll
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.dll
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.pdb
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.dll
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
+D:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.xml
+D:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Consultar_Cliente.resources
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.dll
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.dll
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.dll
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.xml
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.pdb
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.xml
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.xml
+F:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Cliente.resources
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Consultar_Cliente.resources
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.dll
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.dll
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.pdb
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Cliente.resources
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarSetor.resources
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.ControlarCargo.resources
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionario.resources
+C:\Users\BolovoKun\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarCliente.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Principal.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.ControlarCargo.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarCliente.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionario.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarSetor.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.dll
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.pdb
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionari.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.Carg.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Fornecedor.ControlarFornecedor.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Setor.ControlarSeto.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Login.Login.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Produto.Produto.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControleCep.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.TipoProduto.TipoProduto.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Venda.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Caixa.Pesquisar.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Principal2.resources
+C:\Users\Eduardo\Desktop\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cliente.ControlarCliente.resources
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe.config
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.exe
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto Tcc.pdb
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Projeto Tcc.pdb
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.dll
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.dll
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.dll
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Core.xml
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Services.Transaction.xml
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.pdb
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Castle.Windsor.xml
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.xml
+G:\Projeto Tcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Principal.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Principal2.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.Carg.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cargo.ControlarCargo.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Cliente.ControlarCliente.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarCliente.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControleCep.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Form1.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Properties.Resources.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Fornecedor.ControlarFornecedor.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionari.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Funcionario.ControlarFuncionario.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Login.Login.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Produto.Produto.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Setor.ControlarSeto.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarSetor.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.TipoProduto.TipoProduto.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Caixa.Pesquisar.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Venda.resources
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Projeto Tcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
