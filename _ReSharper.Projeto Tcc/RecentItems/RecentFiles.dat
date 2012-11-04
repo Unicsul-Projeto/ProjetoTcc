@@ -1,6 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Mappings/f:AcessoMap.cs" caret="0" fromTop="0" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Mappings/f:AcessoUsuarioMap.cs" caret="497" fromTop="18" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:UfRepositorio.cs" caret="457" fromTop="19" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Helpers/f:SessionFactoryProvider.cs" caret="1558" fromTop="10" />
@@ -17,50 +16,51 @@
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Caixa/f:Venda.cs" caret="469" fromTop="16" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Principal.Designer.cs" caret="44" fromTop="2" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/f:DAO.cs" caret="716" fromTop="0" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Entidades/f:Endereco.cs" caret="190" fromTop="8" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/f:ControlarCliente.cs" caret="1247" fromTop="0" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Mappings/f:EnderecoMap.cs" caret="469" fromTop="16" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Mappings/f:UfMap.cs" caret="219" fromTop="9" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Entidades/f:Uf.cs" caret="190" fromTop="8" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Program.cs" caret="653" fromTop="20" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Principal.cs" caret="3495" fromTop="20" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="146" fromTop="8" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Entidades/f:PessoaFisica.cs" caret="197" fromTop="0" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Mappings/f:PessoaFisicaMap.cs" caret="207" fromTop="7" />
     <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:PessoaFisicaRepositorio.cs" caret="497" fromTop="14" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.Designer.cs" caret="35590" fromTop="18" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14166" fromTop="31" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.Designer.cs" caret="36168" fromTop="18" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:EnderecoRepositorio.cs" caret="449" fromTop="16" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Entidades/f:Endereco.cs" caret="1673" fromTop="18" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="782" fromTop="24" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="4088" fromTop="20" />
   </RecentFiles>
   <RecentEdits>
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14053" fromTop="19" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="2480" fromTop="14" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14053" fromTop="30" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.Designer.cs" caret="35590" fromTop="19" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Mappings/f:PessoaFisicaMap.cs" caret="657" fromTop="7" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14053" fromTop="19" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14053" fromTop="16" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14053" fromTop="30" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="14053" fromTop="24" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9827" fromTop="25" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9794" fromTop="24" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="10025" fromTop="20" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="3914" fromTop="19" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="2777" fromTop="26" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="2777" fromTop="19" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="2777" fromTop="9" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="2777" fromTop="20" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="2778" fromTop="25" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="1528" fromTop="21" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="184" fromTop="10" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:PessoaFisicaRepositorio.cs" caret="1614" fromTop="46" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:PessoaFisicaRepositorio.cs" caret="497" fromTop="14" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="4307" fromTop="17" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.Designer.cs" caret="35590" fromTop="18" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="15812" fromTop="30" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="15158" fromTop="21" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="15154" fromTop="17" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="15155" fromTop="29" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="15661" fromTop="31" />
-    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="15856" fromTop="31" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="17" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.Designer.cs" caret="36168" fromTop="18" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="30" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="21" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="17" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="29" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="31" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="19" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="679" fromTop="24" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="1143" fromTop="30" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:EnderecoRepositorio.cs" caret="305" fromTop="11" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Repositorio/d:Repositorios/f:EnderecoRepositorio.cs" caret="626" fromTop="22" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Entidades/f:Endereco.cs" caret="814" fromTop="16" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Entidades/f:Endereco.cs" caret="1673" fromTop="18" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="17043" fromTop="30" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="17085" fromTop="20" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="34" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="21" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="35" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="16752" fromTop="24" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9682" fromTop="30" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9682" fromTop="29" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9682" fromTop="27" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9682" fromTop="31" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="9682" fromTop="13" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="910" fromTop="27" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="229" fromTop="11" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/d:Visualizacao/d:Cliente/f:ControlarCliente.cs" caret="4258" fromTop="22" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="480" fromTop="17" />
+    <File id="F2063356-69BF-4CC4-A21A-F219BB709261/f:Util.cs" caret="782" fromTop="24" />
   </RecentEdits>
 </RecentFiles>

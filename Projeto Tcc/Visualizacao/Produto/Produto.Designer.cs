@@ -490,7 +490,7 @@
             this.radLabel8.Name = "radLabel8";
             this.radLabel8.Size = new System.Drawing.Size(53, 18);
             this.radLabel8.TabIndex = 5;
-            this.radLabel8.Text = "Vl.Venda:";
+            this.radLabel8.Text = "Vl.ControlarVenda:";
             // 
             // radDropDownList1
             // 

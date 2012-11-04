@@ -138,6 +138,7 @@
     <Compile Include="Repositorio\Mappings\AcessoUsuarioMap.cs" />
     <Compile Include="Repositorio\Mappings\CargoMap.cs" />
     <Compile Include="Repositorio\Mappings\FuncionarioMap.cs" />
+    <Compile Include="Repositorio\Mappings\PessoaJuridicaMap.cs" />
     <Compile Include="Repositorio\Mappings\SetorMap.cs" />
     <Compile Include="Repositorio\Mappings\UfMap.cs" />
     <Compile Include="Repositorio\Mappings\UsuarioMap.cs" />
@@ -145,9 +146,11 @@
     <Compile Include="Repositorio\Repositorios\AcessoUsuarioRepositorio.cs" />
     <Compile Include="Repositorio\Repositorios\CargoRepositorio.cs" />
     <Compile Include="Repositorio\Repositorios\FuncionarioRepositorio.cs" />
+    <Compile Include="Repositorio\Repositorios\PessoaJuridicaRepositorio.cs" />
     <Compile Include="Repositorio\Repositorios\SetorRepositorio.cs" />
     <Compile Include="Repositorio\Repositorios\UfRepositorio.cs" />
     <Compile Include="Repositorio\Repositorios\UsuarioRepositorio.cs" />
+    <Compile Include="Repositorio\Repositorios\VendaRepositorio.cs" />
     <Compile Include="Util.cs" />
     <Compile Include="Visualizacao\Cargo\Carg.cs">
       <SubType>Form</SubType>
@@ -290,11 +293,11 @@
     <Compile Include="Visualizacao\Caixa\Pesquisar.Designer.cs">
       <DependentUpon>Pesquisar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Visualizacao\Caixa\Venda.cs">
+    <Compile Include="Visualizacao\Caixa\ControlarVenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Visualizacao\Caixa\Venda.Designer.cs">
-      <DependentUpon>Venda.cs</DependentUpon>
+    <Compile Include="Visualizacao\Caixa\ControlarVenda.Designer.cs">
+      <DependentUpon>ControlarVenda.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -357,8 +360,8 @@
     <EmbeddedResource Include="Visualizacao\Caixa\Pesquisar.resx">
       <DependentUpon>Pesquisar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Visualizacao\Caixa\Venda.resx">
-      <DependentUpon>Venda.cs</DependentUpon>
+    <EmbeddedResource Include="Visualizacao\Caixa\ControlarVenda.resx">
+      <DependentUpon>ControlarVenda.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />

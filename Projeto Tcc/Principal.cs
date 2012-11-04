@@ -112,7 +112,7 @@ namespace Projeto_Tcc
         private void radMenuItem11_Click(object sender, EventArgs e)
         {
 
-            var teste = new Visualizacao.Venda {MdiParent = this};
+            var teste = new Visualizacao.ControlarVenda {MdiParent = this};
             teste.Show();
 
         }

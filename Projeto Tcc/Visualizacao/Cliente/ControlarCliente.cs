@@ -25,7 +25,7 @@ namespace Projeto_Tcc.Visualizacao.Cliente
         private IEnderecoServico _enderecoServico;
         private ISexoServico _sexoServico;
         private IUfServico _ufServico;
-        private string comando;
+        private string comando="";
 
         private void ControlarCliente_Load(object sender, EventArgs e)
         {
@@ -119,12 +119,16 @@ namespace Projeto_Tcc.Visualizacao.Cliente
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+
+            #region validação de campos
+
             var u = new Util();
             if (!u.Validar(txtNome) && !u.Validar(txtCpf) && !u.Validar(txtRg) && !u.Validar(txtTelefone) && !u.Validar(cbSexo))
             {
                 MessageBox.Show("Existem campos obrigatórios não preenchidos.", "Validação", MessageBoxButtons.OK,
                                 MessageBoxIcon.Exclamation);
             }
+            #endregion
 
             switch (comando)
             {
@@ -242,8 +246,12 @@ namespace Projeto_Tcc.Visualizacao.Cliente
                         MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     break;
+                case "":
+                    MessageBox.Show("Nenhum comando foi selecionado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    break;
             }
 
+            comando = "";
 
         }
 
@@ -323,8 +331,6 @@ namespace Projeto_Tcc.Visualizacao.Cliente
             tabControlCliente.SelectedPage = tabPageDetalhe;
             try
             {
-                LiberarCampos();
-
                 var viewmodel = (ViewModelCliente)gridConsultarCliente.SelectedRows[0].DataBoundItem;
                 var cliente = _pessoaFisicaServico.Pesquisar(Convert.ToInt32(viewmodel.Id));
                 txtCodigo.Text = cliente.Id.ToString();

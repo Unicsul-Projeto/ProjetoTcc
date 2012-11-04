@@ -16,7 +16,7 @@ namespace Projeto_Tcc.Repositorio.Mappings
             Map(x => x.Celular);
             Map(x => x.NumeroEndereco);
 
-            References(x => x.Endereco).Column("Endereco_Id").Cascade.All();
+            References(x => x.Endereco).Column("Endereco_Id").Cascade.SaveUpdate();
             References(x => x.Sexo).Column("Sexo_Id");
         }
     }

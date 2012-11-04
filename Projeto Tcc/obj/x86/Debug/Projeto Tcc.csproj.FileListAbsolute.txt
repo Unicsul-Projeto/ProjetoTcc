@@ -207,7 +207,6 @@ D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Seto
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarSetor.resources
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.TipoProduto.TipoProduto.resources
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Caixa.Pesquisar.resources
-D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.Venda.resources
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Projeto Tcc.exe
@@ -223,3 +222,4 @@ D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\FluentNHibernate.xml
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\Iesi.Collections.xml
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\NHibernate.xml
 D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\bin\Debug\NHibernate.ByteCode.Castle.xml
+D:\Dev\GitHub\ProjetoTcc\Projeto Tcc\obj\x86\Debug\Projeto_Tcc.Visualizacao.ControlarVenda.resources

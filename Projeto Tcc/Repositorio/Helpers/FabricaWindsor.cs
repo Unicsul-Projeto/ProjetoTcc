@@ -10,16 +10,16 @@ namespace Projeto_Tcc.Repositorio.Helpers
     {
         public void IniciarRepositorio()
         {
-            var container = ContainerWindsor.InicializarContainer();
-            container.Resolve<IPessoaFisicaRepositorio>();
-            container.Resolve<IAcessoRepositorio>();
-            container.Resolve<IAcessoUsuarioRepositorio>();
-            container.Resolve<ICargoRepositorio>();
-            container.Resolve<IEnderecoRepositorio>();
-            container.Resolve<ISetorRepositorio>();
-            container.Resolve<ISexoRepositorio>();
-            container.Resolve<IUfRepositorio>();
-            container.Resolve<IUsuarioRepositorio>();
+            //var container = ContainerWindsor.InicializarContainer();
+            //container.Resolve<IPessoaFisicaRepositorio>();
+            //container.Resolve<IAcessoRepositorio>();
+            //container.Resolve<IAcessoUsuarioRepositorio>();
+            //container.Resolve<ICargoRepositorio>();
+            //container.Resolve<IEnderecoRepositorio>();
+            //container.Resolve<ISetorRepositorio>();
+            //container.Resolve<ISexoRepositorio>();
+            //container.Resolve<IUfRepositorio>();
+            //container.Resolve<IUsuarioRepositorio>();
         }
     }
 }

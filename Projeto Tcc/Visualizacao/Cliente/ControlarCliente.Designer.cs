@@ -37,6 +37,7 @@
             this.tabPageDetalhe = new Telerik.WinControls.UI.RadPageViewPage();
             this.btnConfirmar = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
+            this.pbCpf = new System.Windows.Forms.PictureBox();
             this.btnPesquisarCep = new Telerik.WinControls.UI.RadButton();
             this.radLabel15 = new Telerik.WinControls.UI.RadLabel();
             this.cbEstado = new Telerik.WinControls.UI.RadDropDownList();
@@ -74,7 +75,6 @@
             this.rbNome = new Telerik.WinControls.UI.RadRadioButton();
             this.telerikMetroBlueTheme1 = new Telerik.WinControls.Themes.TelerikMetroBlueTheme();
             this.tip = new System.Windows.Forms.ToolTip(this.components);
-            this.pbCpf = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tabControlCliente)).BeginInit();
             this.tabControlCliente.SuspendLayout();
             this.tabPageConsultar.SuspendLayout();
@@ -85,6 +85,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCpf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPesquisarCep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbEstado)).BeginInit();
@@ -120,7 +121,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.rbRg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbCpf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbNome)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCpf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -257,6 +257,15 @@
             this.radGroupBox1.TabIndex = 0;
             this.radGroupBox1.Text = "Pessoa";
             this.radGroupBox1.ThemeName = "TelerikMetroBlue";
+            // 
+            // pbCpf
+            // 
+            this.pbCpf.Location = new System.Drawing.Point(258, 87);
+            this.pbCpf.Name = "pbCpf";
+            this.pbCpf.Size = new System.Drawing.Size(16, 16);
+            this.pbCpf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCpf.TabIndex = 25;
+            this.pbCpf.TabStop = false;
             // 
             // btnPesquisarCep
             // 
@@ -510,9 +519,9 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Enabled = false;
             this.txtCodigo.Location = new System.Drawing.Point(95, 33);
             this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.ReadOnly = true;
             this.txtCodigo.Size = new System.Drawing.Size(156, 20);
             this.txtCodigo.TabIndex = 0;
             this.txtCodigo.TabStop = false;
@@ -579,15 +588,6 @@
             this.rbNome.ThemeName = "TelerikMetroBlue";
             this.rbNome.ToggleState = Telerik.WinControls.Enumerations.ToggleState.On;
             // 
-            // pbCpf
-            // 
-            this.pbCpf.Location = new System.Drawing.Point(258, 87);
-            this.pbCpf.Name = "pbCpf";
-            this.pbCpf.Size = new System.Drawing.Size(16, 16);
-            this.pbCpf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbCpf.TabIndex = 25;
-            this.pbCpf.TabStop = false;
-            // 
             // ControlarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -620,6 +620,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
             this.radGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCpf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPesquisarCep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbEstado)).EndInit();
@@ -655,7 +656,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.rbRg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbCpf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbNome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCpf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

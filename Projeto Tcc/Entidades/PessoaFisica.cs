@@ -27,7 +27,7 @@ namespace Projeto_Tcc
         PessoaFisica Pesquisar(int id);
         IList<PessoaFisica> PesquisarTodos();
         IList<PessoaFisica> PesquisarPorNome(string nome);
-        IList<PessoaFisica> PesquisarPorCpf(string Cpf);
+        IList<PessoaFisica> PesquisarPorCpf(string cpf);
         IList<PessoaFisica> PesquisarPorRg(string rg);
     }
 

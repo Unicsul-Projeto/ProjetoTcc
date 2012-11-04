@@ -28,151 +28,185 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Tab = new Telerik.WinControls.UI.RadPageView();
-            this.Consultar = new Telerik.WinControls.UI.RadPageViewPage();
-            this.radGridView1 = new Telerik.WinControls.UI.RadGridView();
-            this.radPageViewPage3 = new Telerik.WinControls.UI.RadPageViewPage();
+            this.components = new System.ComponentModel.Container();
+            this.TabControlFornecedor = new Telerik.WinControls.UI.RadPageView();
+            this.tabConsultar = new Telerik.WinControls.UI.RadPageViewPage();
+            this.btnExcluir = new Telerik.WinControls.UI.RadButton();
+            this.btnAlterar = new Telerik.WinControls.UI.RadButton();
+            this.tabDetalhe = new Telerik.WinControls.UI.RadPageViewPage();
+            this.btnConfirmar = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radButton6 = new Telerik.WinControls.UI.RadButton();
-            this.radTextBox3 = new Telerik.WinControls.UI.RadTextBox();
+            this.pbCnpj = new System.Windows.Forms.PictureBox();
+            this.btnPesquisarCep = new Telerik.WinControls.UI.RadButton();
+            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
+            this.txtTelefone = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel13 = new Telerik.WinControls.UI.RadLabel();
-            this.radDropDownList2 = new Telerik.WinControls.UI.RadDropDownList();
+            this.cbEstado = new Telerik.WinControls.UI.RadDropDownList();
             this.radLabel12 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel11 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox11 = new Telerik.WinControls.UI.RadTextBox();
+            this.txtCidade = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel10 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox10 = new Telerik.WinControls.UI.RadTextBox();
+            this.txtBairro = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel9 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox9 = new Telerik.WinControls.UI.RadTextBox();
+            this.txtNumero = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel8 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox8 = new Telerik.WinControls.UI.RadTextBox();
-            this.radTextBox7 = new Telerik.WinControls.UI.RadTextBox();
+            this.txtEndereco = new Telerik.WinControls.UI.RadTextBox();
+            this.txtCep = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel7 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel6 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox6 = new Telerik.WinControls.UI.RadTextBox();
-            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox5 = new Telerik.WinControls.UI.RadTextBox();
-            this.radTextBox4 = new Telerik.WinControls.UI.RadTextBox();
+            this.txtInscEstadual = new Telerik.WinControls.UI.RadTextBox();
+            this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
+            this.txtCnpj = new Telerik.WinControls.UI.RadTextBox();
+            this.txtNomeFantasia = new Telerik.WinControls.UI.RadTextBox();
+            this.txtRazaoSocial = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBox2 = new Telerik.WinControls.UI.RadTextBox();
-            this.radButton3 = new Telerik.WinControls.UI.RadButton();
-            this.radTextBox1 = new Telerik.WinControls.UI.RadTextBox();
+            this.txtCodigo = new Telerik.WinControls.UI.RadTextBox();
+            this.btnNovo = new Telerik.WinControls.UI.RadButton();
+            this.txtPesquisar = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
-            this.radRadioButton3 = new Telerik.WinControls.UI.RadRadioButton();
-            this.radRadioButton2 = new Telerik.WinControls.UI.RadRadioButton();
-            this.radRadioButton1 = new Telerik.WinControls.UI.RadRadioButton();
+            this.rbNomeFantasia = new Telerik.WinControls.UI.RadRadioButton();
+            this.rbCnpj = new Telerik.WinControls.UI.RadRadioButton();
+            this.rbRazaoSocial = new Telerik.WinControls.UI.RadRadioButton();
             this.telerikMetroBlueTheme1 = new Telerik.WinControls.Themes.TelerikMetroBlueTheme();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
-            this.radButton2 = new Telerik.WinControls.UI.RadButton();
-            this.radButton4 = new Telerik.WinControls.UI.RadButton();
-            this.radButton5 = new Telerik.WinControls.UI.RadButton();
-            ((System.ComponentModel.ISupportInitialize)(this.Tab)).BeginInit();
-            this.Tab.SuspendLayout();
-            this.Consultar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).BeginInit();
-            this.radPageViewPage3.SuspendLayout();
+            this.tip = new System.Windows.Forms.ToolTip(this.components);
+            this.gridFornecedor = new Telerik.WinControls.UI.RadGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.TabControlFornecedor)).BeginInit();
+            this.TabControlFornecedor.SuspendLayout();
+            this.tabConsultar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExcluir)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlterar)).BeginInit();
+            this.tabDetalhe.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCnpj)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPesquisarCep)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTelefone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radDropDownList2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbEstado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBairro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNumero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEndereco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInscEstadual)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCnpj)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNomeFantasia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRazaoSocial)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCodigo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNovo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPesquisar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radRadioButton3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radRadioButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radRadioButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbNomeFantasia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbCnpj)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbRazaoSocial)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFornecedor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
-            // Tab
+            // TabControlFornecedor
             // 
-            this.Tab.Controls.Add(this.Consultar);
-            this.Tab.Controls.Add(this.radPageViewPage3);
-            this.Tab.Location = new System.Drawing.Point(12, 73);
-            this.Tab.Name = "Tab";
-            this.Tab.SelectedPage = this.radPageViewPage3;
-            this.Tab.Size = new System.Drawing.Size(747, 282);
-            this.Tab.TabIndex = 14;
-            this.Tab.Text = "Consultar";
-            this.Tab.ThemeName = "TelerikMetroBlue";
-            ((Telerik.WinControls.UI.RadPageViewStripElement)(this.Tab.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.Scroll;
+            this.TabControlFornecedor.Controls.Add(this.tabConsultar);
+            this.TabControlFornecedor.Controls.Add(this.tabDetalhe);
+            this.TabControlFornecedor.Location = new System.Drawing.Point(12, 73);
+            this.TabControlFornecedor.Name = "TabControlFornecedor";
+            this.TabControlFornecedor.SelectedPage = this.tabConsultar;
+            this.TabControlFornecedor.Size = new System.Drawing.Size(747, 302);
+            this.TabControlFornecedor.TabIndex = 14;
+            this.TabControlFornecedor.Text = "Consultar";
+            this.TabControlFornecedor.ThemeName = "TelerikMetroBlue";
+            ((Telerik.WinControls.UI.RadPageViewStripElement)(this.TabControlFornecedor.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.Scroll;
             // 
-            // Consultar
+            // tabConsultar
             // 
-            this.Consultar.Controls.Add(this.radGridView1);
-            this.Consultar.Location = new System.Drawing.Point(5, 31);
-            this.Consultar.Name = "Consultar";
-            this.Consultar.Size = new System.Drawing.Size(737, 246);
-            this.Consultar.Text = "Cosnultar";
+            this.tabConsultar.Controls.Add(this.gridFornecedor);
+            this.tabConsultar.Controls.Add(this.btnExcluir);
+            this.tabConsultar.Controls.Add(this.btnAlterar);
+            this.tabConsultar.Location = new System.Drawing.Point(5, 31);
+            this.tabConsultar.Name = "tabConsultar";
+            this.tabConsultar.Size = new System.Drawing.Size(737, 266);
+            this.tabConsultar.Text = "Consultar";
             // 
-            // radGridView1
+            // btnExcluir
             // 
-            this.radGridView1.Location = new System.Drawing.Point(3, 14);
-            this.radGridView1.Name = "radGridView1";
-            this.radGridView1.Size = new System.Drawing.Size(731, 229);
-            this.radGridView1.TabIndex = 0;
-            this.radGridView1.Text = "radGridView1";
+            this.btnExcluir.Location = new System.Drawing.Point(105, 239);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(96, 24);
+            this.btnExcluir.TabIndex = 27;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.ThemeName = "TelerikMetroBlue";
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // radPageViewPage3
+            // btnAlterar
             // 
-            this.radPageViewPage3.Controls.Add(this.radGroupBox1);
-            this.radPageViewPage3.Location = new System.Drawing.Point(5, 31);
-            this.radPageViewPage3.Name = "radPageViewPage3";
-            this.radPageViewPage3.Size = new System.Drawing.Size(737, 246);
-            this.radPageViewPage3.Text = "Detalhe";
+            this.btnAlterar.Location = new System.Drawing.Point(3, 239);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(89, 24);
+            this.btnAlterar.TabIndex = 26;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.ThemeName = "TelerikMetroBlue";
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            // 
+            // tabDetalhe
+            // 
+            this.tabDetalhe.Controls.Add(this.btnConfirmar);
+            this.tabDetalhe.Controls.Add(this.radGroupBox1);
+            this.tabDetalhe.Location = new System.Drawing.Point(5, 31);
+            this.tabDetalhe.Name = "tabDetalhe";
+            this.tabDetalhe.Size = new System.Drawing.Size(737, 266);
+            this.tabDetalhe.Text = "Detalhe";
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.Location = new System.Drawing.Point(17, 239);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(89, 24);
+            this.btnConfirmar.TabIndex = 26;
+            this.btnConfirmar.Text = "Confirmar";
+            this.btnConfirmar.ThemeName = "TelerikMetroBlue";
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // radGroupBox1
             // 
             this.radGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox1.Controls.Add(this.radButton6);
-            this.radGroupBox1.Controls.Add(this.radTextBox3);
+            this.radGroupBox1.Controls.Add(this.pbCnpj);
+            this.radGroupBox1.Controls.Add(this.btnPesquisarCep);
+            this.radGroupBox1.Controls.Add(this.radLabel4);
+            this.radGroupBox1.Controls.Add(this.txtTelefone);
             this.radGroupBox1.Controls.Add(this.radLabel13);
-            this.radGroupBox1.Controls.Add(this.radDropDownList2);
+            this.radGroupBox1.Controls.Add(this.cbEstado);
             this.radGroupBox1.Controls.Add(this.radLabel12);
             this.radGroupBox1.Controls.Add(this.radLabel11);
-            this.radGroupBox1.Controls.Add(this.radTextBox11);
+            this.radGroupBox1.Controls.Add(this.txtCidade);
             this.radGroupBox1.Controls.Add(this.radLabel10);
-            this.radGroupBox1.Controls.Add(this.radTextBox10);
+            this.radGroupBox1.Controls.Add(this.txtBairro);
             this.radGroupBox1.Controls.Add(this.radLabel9);
-            this.radGroupBox1.Controls.Add(this.radTextBox9);
+            this.radGroupBox1.Controls.Add(this.txtNumero);
             this.radGroupBox1.Controls.Add(this.radLabel8);
-            this.radGroupBox1.Controls.Add(this.radTextBox8);
-            this.radGroupBox1.Controls.Add(this.radTextBox7);
+            this.radGroupBox1.Controls.Add(this.txtEndereco);
+            this.radGroupBox1.Controls.Add(this.txtCep);
             this.radGroupBox1.Controls.Add(this.radLabel7);
             this.radGroupBox1.Controls.Add(this.radLabel6);
             this.radGroupBox1.Controls.Add(this.radLabel5);
-            this.radGroupBox1.Controls.Add(this.radTextBox6);
-            this.radGroupBox1.Controls.Add(this.radLabel4);
-            this.radGroupBox1.Controls.Add(this.radTextBox5);
-            this.radGroupBox1.Controls.Add(this.radTextBox4);
+            this.radGroupBox1.Controls.Add(this.txtInscEstadual);
+            this.radGroupBox1.Controls.Add(this.radLabel3);
+            this.radGroupBox1.Controls.Add(this.txtCnpj);
+            this.radGroupBox1.Controls.Add(this.txtNomeFantasia);
+            this.radGroupBox1.Controls.Add(this.txtRazaoSocial);
             this.radGroupBox1.Controls.Add(this.radLabel2);
-            this.radGroupBox1.Controls.Add(this.radTextBox2);
+            this.radGroupBox1.Controls.Add(this.txtCodigo);
             this.radGroupBox1.HeaderText = "Fornecedor:";
             this.radGroupBox1.Location = new System.Drawing.Point(17, 16);
             this.radGroupBox1.Name = "radGroupBox1";
@@ -185,48 +219,68 @@
             this.radGroupBox1.Text = "Fornecedor:";
             this.radGroupBox1.ThemeName = "TelerikMetroBlue";
             // 
-            // radButton6
+            // pbCnpj
             // 
-            this.radButton6.Location = new System.Drawing.Point(246, 123);
-            this.radButton6.Name = "radButton6";
-            this.radButton6.Size = new System.Drawing.Size(22, 21);
-            this.radButton6.TabIndex = 14;
-            this.radButton6.Text = "+";
-            this.radButton6.ThemeName = "TelerikMetroBlue";
+            this.pbCnpj.Location = new System.Drawing.Point(246, 99);
+            this.pbCnpj.Name = "pbCnpj";
+            this.pbCnpj.Size = new System.Drawing.Size(16, 16);
+            this.pbCnpj.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCnpj.TabIndex = 26;
+            this.pbCnpj.TabStop = false;
             // 
-            // radTextBox3
+            // btnPesquisarCep
             // 
-            this.radTextBox3.Location = new System.Drawing.Point(557, 97);
-            this.radTextBox3.Name = "radTextBox3";
-            this.radTextBox3.Size = new System.Drawing.Size(129, 20);
-            this.radTextBox3.TabIndex = 7;
-            this.radTextBox3.TabStop = false;
+            this.btnPesquisarCep.Location = new System.Drawing.Point(246, 123);
+            this.btnPesquisarCep.Name = "btnPesquisarCep";
+            this.btnPesquisarCep.Size = new System.Drawing.Size(22, 21);
+            this.btnPesquisarCep.TabIndex = 14;
+            this.btnPesquisarCep.Text = "+";
+            this.btnPesquisarCep.ThemeName = "TelerikMetroBlue";
+            this.btnPesquisarCep.Click += new System.EventHandler(this.btnPesquisarCep_Click);
+            // 
+            // radLabel4
+            // 
+            this.radLabel4.AutoSize = true;
+            this.radLabel4.Location = new System.Drawing.Point(27, 51);
+            this.radLabel4.Name = "radLabel4";
+            this.radLabel4.Size = new System.Drawing.Size(71, 18);
+            this.radLabel4.TabIndex = 5;
+            this.radLabel4.Text = "Razão Social:";
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Location = new System.Drawing.Point(557, 97);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(129, 20);
+            this.txtTelefone.TabIndex = 7;
+            this.txtTelefone.TabStop = false;
             // 
             // radLabel13
             // 
             this.radLabel13.AutoSize = true;
-            this.radLabel13.Location = new System.Drawing.Point(231, 175);
+            this.radLabel13.Location = new System.Drawing.Point(562, 177);
             this.radLabel13.Name = "radLabel13";
             this.radLabel13.Size = new System.Drawing.Size(42, 18);
             this.radLabel13.TabIndex = 13;
             this.radLabel13.Text = "Estado:";
             // 
-            // radDropDownList2
+            // cbEstado
             // 
-            this.radDropDownList2.Location = new System.Drawing.Point(279, 175);
-            this.radDropDownList2.Name = "radDropDownList2";
+            this.cbEstado.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
+            this.cbEstado.Location = new System.Drawing.Point(610, 177);
+            this.cbEstado.Name = "cbEstado";
             // 
             // 
             // 
-            this.radDropDownList2.RootElement.StretchVertically = true;
-            this.radDropDownList2.Size = new System.Drawing.Size(75, 23);
-            this.radDropDownList2.TabIndex = 12;
-            this.radDropDownList2.ThemeName = "TelerikMetroBlue";
+            this.cbEstado.RootElement.StretchVertically = true;
+            this.cbEstado.Size = new System.Drawing.Size(75, 23);
+            this.cbEstado.TabIndex = 12;
+            this.cbEstado.ThemeName = "TelerikMetroBlue";
             // 
             // radLabel12
             // 
             this.radLabel12.AutoSize = true;
-            this.radLabel12.Location = new System.Drawing.Point(27, 175);
+            this.radLabel12.Location = new System.Drawing.Point(55, 180);
             this.radLabel12.Name = "radLabel12";
             this.radLabel12.Size = new System.Drawing.Size(43, 18);
             this.radLabel12.TabIndex = 11;
@@ -241,13 +295,13 @@
             this.radLabel11.TabIndex = 9;
             this.radLabel11.Text = "Bairro:";
             // 
-            // radTextBox11
+            // txtCidade
             // 
-            this.radTextBox11.Location = new System.Drawing.Point(84, 175);
-            this.radTextBox11.Name = "radTextBox11";
-            this.radTextBox11.Size = new System.Drawing.Size(119, 20);
-            this.radTextBox11.TabIndex = 10;
-            this.radTextBox11.TabStop = false;
+            this.txtCidade.Location = new System.Drawing.Point(104, 180);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(452, 20);
+            this.txtCidade.TabIndex = 10;
+            this.txtCidade.TabStop = false;
             // 
             // radLabel10
             // 
@@ -258,55 +312,55 @@
             this.radLabel10.TabIndex = 7;
             this.radLabel10.Text = "Numero:";
             // 
-            // radTextBox10
+            // txtBairro
             // 
-            this.radTextBox10.Location = new System.Drawing.Point(360, 123);
-            this.radTextBox10.Name = "radTextBox10";
-            this.radTextBox10.Size = new System.Drawing.Size(325, 20);
-            this.radTextBox10.TabIndex = 8;
-            this.radTextBox10.TabStop = false;
+            this.txtBairro.Location = new System.Drawing.Point(360, 123);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(325, 20);
+            this.txtBairro.TabIndex = 8;
+            this.txtBairro.TabStop = false;
             // 
             // radLabel9
             // 
             this.radLabel9.AutoSize = true;
-            this.radLabel9.Location = new System.Drawing.Point(11, 147);
+            this.radLabel9.Location = new System.Drawing.Point(45, 147);
             this.radLabel9.Name = "radLabel9";
             this.radLabel9.Size = new System.Drawing.Size(55, 18);
             this.radLabel9.TabIndex = 7;
             this.radLabel9.Text = "Endereço:";
             // 
-            // radTextBox9
+            // txtNumero
             // 
-            this.radTextBox9.Location = new System.Drawing.Point(556, 147);
-            this.radTextBox9.Name = "radTextBox9";
-            this.radTextBox9.Size = new System.Drawing.Size(129, 20);
-            this.radTextBox9.TabIndex = 6;
-            this.radTextBox9.TabStop = false;
+            this.txtNumero.Location = new System.Drawing.Point(556, 147);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(129, 20);
+            this.txtNumero.TabIndex = 6;
+            this.txtNumero.TabStop = false;
             // 
             // radLabel8
             // 
             this.radLabel8.AutoSize = true;
-            this.radLabel8.Location = new System.Drawing.Point(37, 121);
+            this.radLabel8.Location = new System.Drawing.Point(71, 121);
             this.radLabel8.Name = "radLabel8";
             this.radLabel8.Size = new System.Drawing.Size(28, 18);
             this.radLabel8.TabIndex = 5;
             this.radLabel8.Text = "CEP:";
             // 
-            // radTextBox8
+            // txtEndereco
             // 
-            this.radTextBox8.Location = new System.Drawing.Point(84, 149);
-            this.radTextBox8.Name = "radTextBox8";
-            this.radTextBox8.Size = new System.Drawing.Size(405, 20);
-            this.radTextBox8.TabIndex = 6;
-            this.radTextBox8.TabStop = false;
+            this.txtEndereco.Location = new System.Drawing.Point(104, 149);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(385, 20);
+            this.txtEndereco.TabIndex = 6;
+            this.txtEndereco.TabStop = false;
             // 
-            // radTextBox7
+            // txtCep
             // 
-            this.radTextBox7.Location = new System.Drawing.Point(84, 123);
-            this.radTextBox7.Name = "radTextBox7";
-            this.radTextBox7.Size = new System.Drawing.Size(156, 20);
-            this.radTextBox7.TabIndex = 4;
-            this.radTextBox7.TabStop = false;
+            this.txtCep.Location = new System.Drawing.Point(104, 123);
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(136, 20);
+            this.txtCep.TabIndex = 4;
+            this.txtCep.TabStop = false;
             // 
             // radLabel7
             // 
@@ -329,79 +383,91 @@
             // radLabel5
             // 
             this.radLabel5.AutoSize = true;
-            this.radLabel5.Location = new System.Drawing.Point(8, 97);
+            this.radLabel5.Location = new System.Drawing.Point(64, 97);
             this.radLabel5.Name = "radLabel5";
-            this.radLabel5.Size = new System.Drawing.Size(58, 18);
+            this.radLabel5.Size = new System.Drawing.Size(34, 18);
             this.radLabel5.TabIndex = 3;
-            this.radLabel5.Text = "CPF/CNPJ:";
+            this.radLabel5.Text = "CNPJ:";
             // 
-            // radTextBox6
+            // txtInscEstadual
             // 
-            this.radTextBox6.Location = new System.Drawing.Point(360, 97);
-            this.radTextBox6.Name = "radTextBox6";
-            this.radTextBox6.Size = new System.Drawing.Size(129, 20);
-            this.radTextBox6.TabIndex = 4;
-            this.radTextBox6.TabStop = false;
+            this.txtInscEstadual.Location = new System.Drawing.Point(360, 97);
+            this.txtInscEstadual.Name = "txtInscEstadual";
+            this.txtInscEstadual.Size = new System.Drawing.Size(129, 20);
+            this.txtInscEstadual.TabIndex = 4;
+            this.txtInscEstadual.TabStop = false;
             // 
-            // radLabel4
+            // radLabel3
             // 
-            this.radLabel4.AutoSize = true;
-            this.radLabel4.Location = new System.Drawing.Point(27, 71);
-            this.radLabel4.Name = "radLabel4";
-            this.radLabel4.Size = new System.Drawing.Size(39, 18);
-            this.radLabel4.TabIndex = 5;
-            this.radLabel4.Text = "Nome:";
+            this.radLabel3.AutoSize = true;
+            this.radLabel3.Location = new System.Drawing.Point(15, 73);
+            this.radLabel3.Name = "radLabel3";
+            this.radLabel3.Size = new System.Drawing.Size(83, 18);
+            this.radLabel3.TabIndex = 5;
+            this.radLabel3.Text = "Nome Fantasia:";
             // 
-            // radTextBox5
+            // txtCnpj
             // 
-            this.radTextBox5.Location = new System.Drawing.Point(84, 97);
-            this.radTextBox5.Name = "radTextBox5";
-            this.radTextBox5.Size = new System.Drawing.Size(156, 20);
-            this.radTextBox5.TabIndex = 2;
-            this.radTextBox5.TabStop = false;
+            this.txtCnpj.Location = new System.Drawing.Point(104, 97);
+            this.txtCnpj.Name = "txtCnpj";
+            this.txtCnpj.Size = new System.Drawing.Size(136, 20);
+            this.txtCnpj.TabIndex = 2;
+            this.txtCnpj.TabStop = false;
+            this.txtCnpj.TextChanged += new System.EventHandler(this.txtCnpj_TextChanged);
             // 
-            // radTextBox4
+            // txtNomeFantasia
             // 
-            this.radTextBox4.Location = new System.Drawing.Point(84, 71);
-            this.radTextBox4.Name = "radTextBox4";
-            this.radTextBox4.Size = new System.Drawing.Size(601, 20);
-            this.radTextBox4.TabIndex = 4;
-            this.radTextBox4.TabStop = false;
+            this.txtNomeFantasia.Location = new System.Drawing.Point(104, 73);
+            this.txtNomeFantasia.Name = "txtNomeFantasia";
+            this.txtNomeFantasia.Size = new System.Drawing.Size(581, 20);
+            this.txtNomeFantasia.TabIndex = 4;
+            this.txtNomeFantasia.TabStop = false;
+            // 
+            // txtRazaoSocial
+            // 
+            this.txtRazaoSocial.Location = new System.Drawing.Point(104, 49);
+            this.txtRazaoSocial.Name = "txtRazaoSocial";
+            this.txtRazaoSocial.Size = new System.Drawing.Size(581, 20);
+            this.txtRazaoSocial.TabIndex = 4;
+            this.txtRazaoSocial.TabStop = false;
             // 
             // radLabel2
             // 
             this.radLabel2.AutoSize = true;
-            this.radLabel2.Location = new System.Drawing.Point(21, 45);
+            this.radLabel2.Location = new System.Drawing.Point(53, 27);
             this.radLabel2.Name = "radLabel2";
             this.radLabel2.Size = new System.Drawing.Size(45, 18);
             this.radLabel2.TabIndex = 1;
             this.radLabel2.Text = "Codigo:";
             // 
-            // radTextBox2
+            // txtCodigo
             // 
-            this.radTextBox2.Location = new System.Drawing.Point(84, 45);
-            this.radTextBox2.Name = "radTextBox2";
-            this.radTextBox2.Size = new System.Drawing.Size(156, 20);
-            this.radTextBox2.TabIndex = 0;
-            this.radTextBox2.TabStop = false;
+            this.txtCodigo.Location = new System.Drawing.Point(104, 25);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.ReadOnly = true;
+            this.txtCodigo.Size = new System.Drawing.Size(156, 20);
+            this.txtCodigo.TabIndex = 0;
+            this.txtCodigo.TabStop = false;
             // 
-            // radButton3
+            // btnNovo
             // 
-            this.radButton3.Location = new System.Drawing.Point(564, 10);
-            this.radButton3.Name = "radButton3";
-            this.radButton3.Size = new System.Drawing.Size(110, 24);
-            this.radButton3.TabIndex = 20;
-            this.radButton3.Text = "Novo";
-            this.radButton3.ThemeName = "TelerikMetroBlue";
+            this.btnNovo.Location = new System.Drawing.Point(564, 10);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(110, 24);
+            this.btnNovo.TabIndex = 20;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.ThemeName = "TelerikMetroBlue";
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
-            // radTextBox1
+            // txtPesquisar
             // 
-            this.radTextBox1.Location = new System.Drawing.Point(95, 10);
-            this.radTextBox1.Name = "radTextBox1";
-            this.radTextBox1.Size = new System.Drawing.Size(441, 23);
-            this.radTextBox1.TabIndex = 19;
-            this.radTextBox1.TabStop = false;
-            this.radTextBox1.ThemeName = "TelerikMetroBlue";
+            this.txtPesquisar.Location = new System.Drawing.Point(95, 10);
+            this.txtPesquisar.Name = "txtPesquisar";
+            this.txtPesquisar.Size = new System.Drawing.Size(441, 23);
+            this.txtPesquisar.TabIndex = 19;
+            this.txtPesquisar.TabStop = false;
+            this.txtPesquisar.ThemeName = "TelerikMetroBlue";
+            this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged);
             // 
             // radLabel1
             // 
@@ -412,137 +478,121 @@
             this.radLabel1.TabIndex = 18;
             this.radLabel1.Text = "Pesquisar:";
             // 
-            // radRadioButton3
+            // rbNomeFantasia
             // 
-            this.radRadioButton3.AutoSize = true;
-            this.radRadioButton3.Location = new System.Drawing.Point(399, 47);
-            this.radRadioButton3.Name = "radRadioButton3";
-            this.radRadioButton3.Size = new System.Drawing.Size(62, 19);
-            this.radRadioButton3.TabIndex = 17;
-            this.radRadioButton3.Text = "Codigo";
-            this.radRadioButton3.ThemeName = "TelerikMetroBlue";
+            this.rbNomeFantasia.AutoSize = true;
+            this.rbNomeFantasia.Location = new System.Drawing.Point(268, 48);
+            this.rbNomeFantasia.Name = "rbNomeFantasia";
+            this.rbNomeFantasia.Size = new System.Drawing.Size(104, 19);
+            this.rbNomeFantasia.TabIndex = 17;
+            this.rbNomeFantasia.Text = "Nome Fantasia";
+            this.rbNomeFantasia.ThemeName = "TelerikMetroBlue";
             // 
-            // radRadioButton2
+            // rbCnpj
             // 
-            this.radRadioButton2.AutoSize = true;
-            this.radRadioButton2.Location = new System.Drawing.Point(262, 47);
-            this.radRadioButton2.Name = "radRadioButton2";
-            this.radRadioButton2.Size = new System.Drawing.Size(76, 19);
-            this.radRadioButton2.TabIndex = 16;
-            this.radRadioButton2.Text = "CPF/CNPJ";
-            this.radRadioButton2.ThemeName = "TelerikMetroBlue";
+            this.rbCnpj.AutoSize = true;
+            this.rbCnpj.Location = new System.Drawing.Point(427, 48);
+            this.rbCnpj.Name = "rbCnpj";
+            this.rbCnpj.Size = new System.Drawing.Size(51, 19);
+            this.rbCnpj.TabIndex = 16;
+            this.rbCnpj.Text = "CNPJ";
+            this.rbCnpj.ThemeName = "TelerikMetroBlue";
             // 
-            // radRadioButton1
+            // rbRazaoSocial
             // 
-            this.radRadioButton1.AutoSize = true;
-            this.radRadioButton1.Location = new System.Drawing.Point(125, 48);
-            this.radRadioButton1.Name = "radRadioButton1";
-            this.radRadioButton1.Size = new System.Drawing.Size(56, 19);
-            this.radRadioButton1.TabIndex = 15;
-            this.radRadioButton1.Text = "Nome";
-            this.radRadioButton1.ThemeName = "TelerikMetroBlue";
+            this.rbRazaoSocial.AutoSize = true;
+            this.rbRazaoSocial.Location = new System.Drawing.Point(125, 48);
+            this.rbRazaoSocial.Name = "rbRazaoSocial";
+            this.rbRazaoSocial.Size = new System.Drawing.Size(90, 19);
+            this.rbRazaoSocial.TabIndex = 15;
+            this.rbRazaoSocial.Text = "Razão Social";
+            this.rbRazaoSocial.ThemeName = "TelerikMetroBlue";
             // 
-            // radButton1
+            // gridFornecedor
             // 
-            this.radButton1.Location = new System.Drawing.Point(219, 361);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(96, 24);
-            this.radButton1.TabIndex = 23;
-            this.radButton1.Text = "Excluir";
-            this.radButton1.ThemeName = "TelerikMetroBlue";
+            this.gridFornecedor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridFornecedor.Location = new System.Drawing.Point(-3, -2);
             // 
-            // radButton2
+            // gridFornecedor
             // 
-            this.radButton2.Location = new System.Drawing.Point(117, 361);
-            this.radButton2.Name = "radButton2";
-            this.radButton2.Size = new System.Drawing.Size(89, 24);
-            this.radButton2.TabIndex = 22;
-            this.radButton2.Text = "Alterar";
-            this.radButton2.ThemeName = "TelerikMetroBlue";
-            // 
-            // radButton4
-            // 
-            this.radButton4.Location = new System.Drawing.Point(17, 361);
-            this.radButton4.Name = "radButton4";
-            this.radButton4.Size = new System.Drawing.Size(87, 24);
-            this.radButton4.TabIndex = 21;
-            this.radButton4.Text = "Salvar";
-            this.radButton4.ThemeName = "TelerikMetroBlue";
-            // 
-            // radButton5
-            // 
-            this.radButton5.Location = new System.Drawing.Point(663, 361);
-            this.radButton5.Name = "radButton5";
-            this.radButton5.Size = new System.Drawing.Size(96, 24);
-            this.radButton5.TabIndex = 24;
-            this.radButton5.Text = "Fechar";
-            this.radButton5.ThemeName = "TelerikMetroBlue";
+            this.gridFornecedor.MasterTemplate.AllowCellContextMenu = false;
+            this.gridFornecedor.MasterTemplate.AllowColumnHeaderContextMenu = false;
+            this.gridFornecedor.MasterTemplate.AutoExpandGroups = true;
+            this.gridFornecedor.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
+            this.gridFornecedor.MasterTemplate.EnableGrouping = false;
+            this.gridFornecedor.MasterTemplate.ShowFilteringRow = false;
+            this.gridFornecedor.Name = "gridFornecedor";
+            this.gridFornecedor.NewRowEnterKeyMode = Telerik.WinControls.UI.RadGridViewNewRowEnterKeyMode.None;
+            this.gridFornecedor.ReadOnly = true;
+            this.gridFornecedor.Size = new System.Drawing.Size(743, 236);
+            this.gridFornecedor.TabIndex = 28;
+            this.gridFornecedor.Text = "Consultar";
+            this.gridFornecedor.ThemeName = "TelerikMetroBlue";
             // 
             // ControlarFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 396);
-            this.Controls.Add(this.radButton5);
-            this.Controls.Add(this.radButton1);
-            this.Controls.Add(this.radButton2);
-            this.Controls.Add(this.radButton4);
-            this.Controls.Add(this.Tab);
-            this.Controls.Add(this.radButton3);
-            this.Controls.Add(this.radTextBox1);
+            this.Controls.Add(this.TabControlFornecedor);
+            this.Controls.Add(this.btnNovo);
+            this.Controls.Add(this.txtPesquisar);
             this.Controls.Add(this.radLabel1);
-            this.Controls.Add(this.radRadioButton1);
-            this.Controls.Add(this.radRadioButton3);
-            this.Controls.Add(this.radRadioButton2);
+            this.Controls.Add(this.rbRazaoSocial);
+            this.Controls.Add(this.rbNomeFantasia);
+            this.Controls.Add(this.rbCnpj);
             this.Name = "ControlarFornecedor";
             // 
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
-            this.Text = "ControlarFornecedor";
+            this.Text = "Controlar Fornecedor";
             this.ThemeName = "TelerikMetroBlue";
             this.Load += new System.EventHandler(this.ControlarFornecedor_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.Tab)).EndInit();
-            this.Tab.ResumeLayout(false);
-            this.Consultar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).EndInit();
-            this.radPageViewPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TabControlFornecedor)).EndInit();
+            this.TabControlFornecedor.ResumeLayout(false);
+            this.tabConsultar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnExcluir)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAlterar)).EndInit();
+            this.tabDetalhe.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
             this.radGroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCnpj)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPesquisarCep)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTelefone)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radDropDownList2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbEstado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBairro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNumero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEndereco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtInscEstadual)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCnpj)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNomeFantasia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRazaoSocial)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCodigo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNovo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPesquisar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radRadioButton3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radRadioButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radRadioButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbNomeFantasia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbCnpj)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbRazaoSocial)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFornecedor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -551,44 +601,47 @@
 
         #endregion
 
-        private Telerik.WinControls.UI.RadPageView Tab;
-        private Telerik.WinControls.UI.RadPageViewPage Consultar;
-        private Telerik.WinControls.UI.RadPageViewPage radPageViewPage3;
+        private Telerik.WinControls.UI.RadPageView TabControlFornecedor;
+        private Telerik.WinControls.UI.RadPageViewPage tabConsultar;
+        private Telerik.WinControls.UI.RadPageViewPage tabDetalhe;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox1;
         private Telerik.WinControls.UI.RadLabel radLabel13;
-        private Telerik.WinControls.UI.RadDropDownList radDropDownList2;
+        private Telerik.WinControls.UI.RadDropDownList cbEstado;
         private Telerik.WinControls.UI.RadLabel radLabel12;
         private Telerik.WinControls.UI.RadLabel radLabel11;
-        private Telerik.WinControls.UI.RadTextBox radTextBox11;
+        private Telerik.WinControls.UI.RadTextBox txtCidade;
         private Telerik.WinControls.UI.RadLabel radLabel10;
-        private Telerik.WinControls.UI.RadTextBox radTextBox10;
+        private Telerik.WinControls.UI.RadTextBox txtBairro;
         private Telerik.WinControls.UI.RadLabel radLabel9;
-        private Telerik.WinControls.UI.RadTextBox radTextBox9;
+        private Telerik.WinControls.UI.RadTextBox txtNumero;
         private Telerik.WinControls.UI.RadLabel radLabel8;
-        private Telerik.WinControls.UI.RadTextBox radTextBox8;
-        private Telerik.WinControls.UI.RadTextBox radTextBox7;
+        private Telerik.WinControls.UI.RadTextBox txtEndereco;
+        private Telerik.WinControls.UI.RadTextBox txtCep;
         private Telerik.WinControls.UI.RadLabel radLabel6;
         private Telerik.WinControls.UI.RadLabel radLabel5;
-        private Telerik.WinControls.UI.RadTextBox radTextBox6;
+        private Telerik.WinControls.UI.RadTextBox txtInscEstadual;
         private Telerik.WinControls.UI.RadLabel radLabel4;
-        private Telerik.WinControls.UI.RadTextBox radTextBox5;
-        private Telerik.WinControls.UI.RadTextBox radTextBox4;
+        private Telerik.WinControls.UI.RadTextBox txtCnpj;
+        private Telerik.WinControls.UI.RadTextBox txtRazaoSocial;
         private Telerik.WinControls.UI.RadLabel radLabel2;
-        private Telerik.WinControls.UI.RadTextBox radTextBox2;
-        private Telerik.WinControls.UI.RadButton radButton3;
-        private Telerik.WinControls.UI.RadTextBox radTextBox1;
+        private Telerik.WinControls.UI.RadTextBox txtCodigo;
+        private Telerik.WinControls.UI.RadButton btnNovo;
+        private Telerik.WinControls.UI.RadTextBox txtPesquisar;
         private Telerik.WinControls.UI.RadLabel radLabel1;
-        private Telerik.WinControls.UI.RadRadioButton radRadioButton3;
-        private Telerik.WinControls.UI.RadRadioButton radRadioButton2;
-        private Telerik.WinControls.UI.RadRadioButton radRadioButton1;
+        private Telerik.WinControls.UI.RadRadioButton rbNomeFantasia;
+        private Telerik.WinControls.UI.RadRadioButton rbCnpj;
+        private Telerik.WinControls.UI.RadRadioButton rbRazaoSocial;
         private Telerik.WinControls.Themes.TelerikMetroBlueTheme telerikMetroBlueTheme1;
-        private Telerik.WinControls.UI.RadTextBox radTextBox3;
+        private Telerik.WinControls.UI.RadTextBox txtTelefone;
         private Telerik.WinControls.UI.RadLabel radLabel7;
-        private Telerik.WinControls.UI.RadGridView radGridView1;
-        private Telerik.WinControls.UI.RadButton radButton1;
-        private Telerik.WinControls.UI.RadButton radButton2;
-        private Telerik.WinControls.UI.RadButton radButton4;
-        private Telerik.WinControls.UI.RadButton radButton5;
-        private Telerik.WinControls.UI.RadButton radButton6;
+        private Telerik.WinControls.UI.RadButton btnPesquisarCep;
+        private Telerik.WinControls.UI.RadLabel radLabel3;
+        private Telerik.WinControls.UI.RadTextBox txtNomeFantasia;
+        private Telerik.WinControls.UI.RadButton btnExcluir;
+        private Telerik.WinControls.UI.RadButton btnAlterar;
+        private Telerik.WinControls.UI.RadButton btnConfirmar;
+        private System.Windows.Forms.PictureBox pbCnpj;
+        private System.Windows.Forms.ToolTip tip;
+        private Telerik.WinControls.UI.RadGridView gridFornecedor;
     }
 }
